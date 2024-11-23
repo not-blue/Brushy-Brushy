@@ -1,0 +1,7 @@
+Pack name:  Brushy Brushy
+Pack URL:   
+Author:     Nicole / notblue / nicoleisnotblue
+Author URL: https://modrinth.com/user/notblue   
+
+Based on the data pack "Better Brushes" by ctkrocks.
+Find it at https://modrinth.com/datapack/better-brushes.

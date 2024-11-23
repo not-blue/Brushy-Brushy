@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "brush_pet": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:brush"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"better_brushes.pet\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brush_pet"
+    ]
+  ],
+  "rewards": {
+    "function": "better_brushes:actions/brush_pet"
+  }
+}

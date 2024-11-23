@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [{"text": "Wet", "color": "gray", "italic": false}],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{\"color\":\"\"}"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "value": 26
+  }
+]

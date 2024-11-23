@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Brush\"",
+      "minecraft:lore": [
+        "{\"text\": \"White\", \"color\": \"white\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 22,
+      "minecraft:custom_data": {
+        "color": "white"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Brush\"",
+      "minecraft:lore": [
+        "{\"text\": \"Pink\", \"color\": \"light_purple\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 20,
+      "minecraft:custom_data": {
+        "color": "pink"
+      }
+    }
+  }
+}

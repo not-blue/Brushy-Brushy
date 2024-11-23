@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Brush\"",
+      "minecraft:lore": [
+        "{\"text\": \"Green\", \"color\": \"dark_green\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 14,
+      "minecraft:custom_data": {
+        "color": "green"
+      }
+    }
+  }
+}

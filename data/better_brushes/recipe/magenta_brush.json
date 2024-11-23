@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Brush\"",
+      "minecraft:lore": [
+        "{\"text\": \"Magenta\", \"color\": \"light_purple\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 19,
+      "minecraft:custom_data": {
+        "color": "magenta"
+      }
+    }
+  }
+}

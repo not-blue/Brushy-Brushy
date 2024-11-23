@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:brush",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Brush\"",
+      "minecraft:lore": [
+        "{\"text\": \"Orange\", \"color\": \"gold\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 11,
+      "minecraft:custom_data": {
+        "color": "orange"
+      }
+    }
+  }
+}

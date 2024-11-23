@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:terracotta",
+    "#better_brushes:concrete",
+    "#better_brushes:concrete_powder",
+    "#minecraft:wool",
+    "#minecraft:wool_carpets",
+    "#better_brushes:stained_glass",
+    "minecraft:glass",
+    "#better_brushes:stained_glass_pane",
+    "minecraft:glass_pane",
+    "#minecraft:shulker_boxes",
+    "#minecraft:beds",
+    "#minecraft:candles"
+  ]
+}

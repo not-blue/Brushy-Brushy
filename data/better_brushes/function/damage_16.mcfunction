@@ -1,0 +1,16 @@
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
+$execute if predicate better_brushes:unbreaking_$(unbreaking_level) run item modify entity @s weapon.mainhand better_brushes:damage
