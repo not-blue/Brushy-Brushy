@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "brush": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": "minecraft:brush"
+        }
+      }
+    }
+  },
+  "requirements": [["brush"]],
+  "rewards": {
+    "function": "brushy:brush_cooldown"
+  }
+}
