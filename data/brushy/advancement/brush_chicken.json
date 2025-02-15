@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "brush_chicken": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:brush"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"brushy.chicken\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["brush_chicken"]],
+  "rewards": {
+    "function": "brushy:actions/brush_chicken"
+  }
+}
