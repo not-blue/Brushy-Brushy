@@ -15,3 +15,15 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:brush"}}] at @s as @e[type=#brush
 execute as @e[type=minecraft:interaction,tag=brushy.pet] at @s at @e[type=#brushy:pet,distance=..0.1] rotated as @e[type=#brushy:pet,distance=..0.1] run tp @s ~ ~ ~ ~ ~
 execute as @e[type=minecraft:interaction,tag=brushy.pet] at @s unless entity @e[type=#brushy:pet,distance=..0.1] run kill @s
 execute as @e[type=minecraft:interaction,tag=brushy.pet] at @s unless entity @a[distance=..5,nbt={SelectedItem:{id:"minecraft:brush"}}] run kill @s
+
+# turtle
+execute as @a[nbt={SelectedItem:{id:"minecraft:brush"}}] at @s as @e[type=minecraft:turtle,distance=..5] at @s rotated as @s unless entity @e[type=minecraft:interaction,tag=brushy.turtle,distance=..0.1] run summon minecraft:interaction ~ ~ ~ {Tags: ["brushy.turtle"], width: 1, height: 1.4}
+execute as @e[type=minecraft:interaction,tag=brushy.turtle] at @s at @e[type=minecraft:turtle,distance=..0.1] rotated as @e[type=minecraft:turtle,distance=..0.1] run tp @s ~ ~ ~ ~ ~
+execute as @e[type=minecraft:interaction,tag=brushy.turtle] at @s unless entity @e[type=minecraft:turtle,distance=..0.1] run kill @s
+execute as @e[type=minecraft:interaction,tag=brushy.turtle] at @s unless entity @a[distance=..5,nbt={SelectedItem:{id:"minecraft:brush"}}] run kill @s
+
+# chicken
+execute as @a[nbt={SelectedItem:{id:"minecraft:brush"}}] at @s as @e[type=minecraft:chicken,distance=..5] at @s rotated as @s unless entity @e[type=minecraft:interaction,tag=brushy.chicken,distance=..0.1] run summon minecraft:interaction ~ ~ ~ {Tags: ["brushy.chicken"], width: 1, height: 1.4}
+execute as @e[type=minecraft:interaction,tag=brushy.chicken] at @s at @e[type=minecraft:chicken,distance=..0.1] rotated as @e[type=minecraft:chicken,distance=..0.1] run tp @s ~ ~ ~ ~ ~
+execute as @e[type=minecraft:interaction,tag=brushy.chicken] at @s unless entity @e[type=minecraft:chicken,distance=..0.1] run kill @s
+execute as @e[type=minecraft:interaction,tag=brushy.chicken] at @s unless entity @a[distance=..5,nbt={SelectedItem:{id:"minecraft:brush"}}] run kill @s

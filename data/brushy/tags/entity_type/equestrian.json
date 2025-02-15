@@ -4,6 +4,8 @@
         "minecraft:donkey",
         "minecraft:mule",
         "minecraft:llama",
-        "minecraft:trader_llama"
+        "minecraft:trader_llama",
+        "minecraft:camel",
+        "minecraft:pig"
     ]
 }
