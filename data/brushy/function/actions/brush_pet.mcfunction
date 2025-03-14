@@ -8,6 +8,7 @@ execute unless entity @s[gamemode=creative] run function brushy:damage_16 with s
 playsound minecraft:item.brush.brushing.generic neutral @a ~ ~ ~
 execute as @e[type=minecraft:interaction,tag=brushy.pet,nbt={interaction:{}},distance=..5] at @s if entity @e[type=minecraft:cat,distance=..0.3] run playsound minecraft:entity.cat.purr neutral @a ~ ~ ~
 execute as @e[type=minecraft:interaction,tag=brushy.pet,nbt={interaction:{}},distance=..5] at @s if entity @e[type=minecraft:wolf,distance=..0.3] run playsound minecraft:entity.wolf.pant neutral @a ~ ~ ~
+execute as @e[type=minecraft:interaction,tag=brushy.pet,nbt={interaction:{}},distance=..5] at @s if entity @e[type=minecraft:parrot,distance=..0.3] run playsound minecraft:entity.parrot.ambient neutral @a ~ ~ ~
 execute as @e[type=minecraft:interaction,tag=brushy.pet,nbt={interaction:{}},distance=..5] at @s run particle minecraft:heart ~ ~1 ~ 0.2 0 0.2 0 1
 
 # give a small amount of regen
